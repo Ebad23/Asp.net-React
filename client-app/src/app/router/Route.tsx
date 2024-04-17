@@ -2,7 +2,7 @@ import { Navigate, RouteObject, createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
 import ActivityForm from "../../features/activities/dashboard/Form/ActivityForm";
-import ActivityDetails from "../../features/activities/dashboard/ActivityDetail";
+import ActivityDetails from "../../features/activities/details/ActivityDetail";
 import TestErrors from "../../features/errors/TestError";
 import NotFound from "../../features/errors/NotFound";
 import ServerError from "../../features/errors/ServerError";
