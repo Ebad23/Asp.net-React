@@ -2,6 +2,7 @@ using Application.Activities;
 using Application.Core;
 using Domain;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
@@ -19,7 +20,7 @@ namespace API.Controllers
 
             return HandleResult(result);
         }
-
+        
         [HttpGet("{id}")] //api/activities/1ijdfjhfhf
         public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
