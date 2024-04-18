@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/react-calendar": "^4.1.0",
     "axios": "^1.6.8",
+    "formik": "^2.4.5",
     "mobx": "^6.12.3",
     "mobx-react-lite": "^4.0.7",
     "react": "^18.2.0",
@@ -21,7 +22,8 @@
     "react-toastify": "^10.0.5",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^3.0.0-beta.0",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

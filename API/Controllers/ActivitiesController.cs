@@ -9,11 +9,9 @@ using Persistence;
 
 namespace API.Controllers
 {
-    [AllowAnonymous]
+   
     public class ActivitiesController : BaseApiController
     {
-      
-
         [HttpGet] //api/activities
         public async Task<IActionResult> GetActivities()
         {
