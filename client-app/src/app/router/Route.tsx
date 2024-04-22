@@ -1,7 +1,7 @@
 import { Navigate, RouteObject, createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
-import ActivityForm from "../../features/activities/dashboard/Form/ActivityForm";
+import ActivityForm from "../../features/activities/Form/ActivityForm";
 import ActivityDetails from "../../features/activities/details/ActivityDetail";
 import TestErrors from "../../features/errors/TestError";
 import NotFound from "../../features/errors/NotFound";

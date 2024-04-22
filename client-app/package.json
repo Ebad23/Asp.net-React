@@ -17,6 +17,7 @@
     "mobx-react-lite": "^4.0.7",
     "react": "^18.2.0",
     "react-calendar": "^4.8.0",
+    "react-datepicker": "^6.9.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "react-toastify": "^10.0.5",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
+    "@types/react-datepicker": "^6.2.0",
     "@types/react-dom": "^18.2.22",
     "@types/uuid": "^9.0.8",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
