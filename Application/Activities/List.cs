@@ -26,6 +26,7 @@ namespace Application.Activities
             }
             public async Task<Result<List<ActivityDTO>>> Handle(Query request, CancellationToken cancellationToken)
             {
+                //jo return hora hai usey activityDto per map karna hai mapping profiles main
                 var activities = await _context.Activities
                 .ProjectTo<ActivityDTO>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
